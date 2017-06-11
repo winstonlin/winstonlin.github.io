@@ -1,0 +1,27 @@
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 3rem;
+}
+
+.jumbotron {
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+}
+
+.wl-navbar {
+  color: #cdbfe3;
+  background-color: #563d7c;
+  text-align: center;
+}
+
+/* To be completed */
+.wl-navbar-a {
+  color: red;
+}
+.wl-navbar-a:visited .wl-navbar-a:link{
+  color: #cdbfe3;
+}
+.wl-navbar-a:hover .wl-navbar-a:active{
+  color: red;
+}

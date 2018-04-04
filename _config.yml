@@ -10,7 +10,12 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
+# Local development
+# theme                  : "minimal-mistakes-jekyll"
+
+# Github pages
 remote_theme             : "mmistakes/minimal-mistakes"
+
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "default", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -139,7 +144,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
-  - jekyll-remote-theme
+  # - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist

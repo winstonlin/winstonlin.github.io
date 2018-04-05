@@ -25,7 +25,7 @@ title_separator          : "-"
 name                     : "Winston Lin"
 description              : >-
   Full-stack Software Developer at Ubisoft Montreal. 
-  Python and back-end expert. Loves hot keys.
+  Python and back-end expert. Loves matcha cake.
   Always ready for a challenge.
 url                      : "http://winstonlin.com"
 baseurl                  : ""
@@ -56,7 +56,11 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
+    - "https://www.linkedin.com/in/winston-lin-aa64a813"
+    - "https://github.com/winstonlin"
+    - "https://stackoverflow.com/users/1747859/wlin"
+    - "http://www.mobygames.com/developer/sheet/view/developerId,665721/"
 
 
 # Site Author
@@ -65,7 +69,7 @@ author:
   avatar           : /images/bio.jpg
   bio              : >-
     Full-stack Software Developer at Ubisoft Montreal. 
-    Python and back-end expert. Loves hot keys.
+    Python and back-end expert. Loves matcha cake.
     Always ready for a challenge.
   location         : "Montreal, Canada"
   github           : winstonlin
@@ -144,7 +148,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
-  # - jekyll-remote-theme
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
